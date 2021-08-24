@@ -1,8 +1,3 @@
-# wrap_error
-
-Wrap JavaScript promise errors
-
-```ts
 import { wrapError } from "./mod.ts";
 
 async function isDenoOk(): Promise<boolean> {
@@ -12,4 +7,3 @@ async function isDenoOk(): Promise<boolean> {
 
 const status = await isDenoOk();
 console.log(status);
-```
